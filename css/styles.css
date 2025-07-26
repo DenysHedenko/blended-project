@@ -1,0 +1,47 @@
+bady {
+    font-size: 16px;
+    background-color: #ffffff;
+}
+
+
+            /*# reaset#*/
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+ul, ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: 1150px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+            /*# header *#/
+

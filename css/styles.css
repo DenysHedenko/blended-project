@@ -334,10 +334,78 @@ img {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-/*#region benefits*/
 
 
-/*#endregion benefits*/
+                /*#region benefits*/
+.benefits-list {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+/*#region first benefits*/
+.benefits-list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.wrapper-first-content {
+    display: block;
+    width: 486px;
+    margin-top: 41px;
+    margin-bottom: 41px;
+}
+
+.benefits-wrapper-pretext {
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+
+.benefits-wrapper-title {
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+.first-group {
+    margin-bottom: 30px;
+}
+
+.benefits-wrapper-subtitle {
+        font-weight: 600;
+        line-height: 1.63;
+}
+
+.benefits-wrapper-text {
+    font-weight: 400;
+    line-height: 1.63;
+}
+
+.wrapper-first-content-list {
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.first-content-list-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+}
+/*#endregion first benefits*/
+
+/*#region two benefits*/
+/*#endregion two benefits*/
+
+/*#region three benefits*/
+/*#endregion three benefits*/
+                /*#endregion benefits*/
 
 /*#region product*/
 /*#endregion product*/

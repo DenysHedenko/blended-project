@@ -322,6 +322,9 @@ img {
 
 /*#endregion product*/
 
+
+                /*#region benefits*/
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -335,8 +338,6 @@ img {
     overflow: hidden;
 }
 
-
-                /*#region benefits*/
 .benefits-list {
     display: flex;
     flex-direction: column;
@@ -380,7 +381,7 @@ img {
 
 .benefits-wrapper-text {
     font-weight: 400;
-    line-height: 1.63;
+    line-height: 1.62;
 }
 
 .wrapper-first-content-list {
@@ -401,6 +402,51 @@ img {
 /*#endregion first benefits*/
 
 /*#region two benefits*/
+.wrapper-two-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 41px 35px 40px 84px;
+}
+
+.wrapper-two-content-list {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: flex-start;
+}
+
+.two-content-list-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2.92px solid #fff;
+    border-radius: 14px;
+    width: 35px;
+    height: 35px;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.red {
+    background-color: crimson;
+}
+
+.blue {
+    background-color: steelblue;
+}
+
 /*#endregion two benefits*/
 
 /*#region three benefits*/

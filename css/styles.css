@@ -433,6 +433,7 @@ img {
     border-radius: 14px;
     width: 35px;
     height: 35px;
+    flex-shrink: 0;
 }
 
 .orange {

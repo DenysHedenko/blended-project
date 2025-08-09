@@ -480,3 +480,65 @@ img {
 
                 /*#region footer*/
                 /*#endregion footer*/
+
+                
+        /*#resources page*/
+        /*#resources page*/
+
+
+                /*#section contact us*/
+
+.contactus-container-text {
+    width: 332px;
+    height: 160px;
+    margin-top: 108px;
+    margin-bottom: 55px;
+}
+
+.contactus-container-text p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.56;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #374754;
+    padding: 10px;
+    margin-bottom: 55px;
+}
+
+.container-text-tittle {
+    margin-bottom: 7px;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 1.68;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #252b42;
+    padding: 10px;
+}
+.container.contactus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-svg-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 21.5px;
+}
+
+.social-svg-item {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    fill: #edfffc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+                /*#section contact us*/

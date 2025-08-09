@@ -228,6 +228,10 @@ img {
     fill: #173a56;
 }
 
+.hero-btns-video:hover.hero-btns-video-svg { 
+    fill: #173a56;
+}
+
 .hero-btns-video-svg {
     border-radius: 2px;
     fill: #02897a;
